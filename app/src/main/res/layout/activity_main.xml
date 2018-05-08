@@ -12,9 +12,42 @@
         android:layout_width="368dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="8dp"
         tools:layout="@layout/fragment_fisrt" />
+
+    <Button
+        android:id="@+id/btn_replace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="26dp"
+        android:text="取代第二個片段"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="213dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="26dp"
+        android:text="刪除第二個片段"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="368dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="186dp"
+        android:background="#ffff00"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp">
+
+    </FrameLayout>
 </android.support.constraint.ConstraintLayout>
